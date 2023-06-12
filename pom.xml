@@ -46,6 +46,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 
+			<!--Nuevo plugin agregado-->
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>jaxb2-maven-plugin</artifactId>
@@ -60,7 +61,7 @@
 				</executions>
 				<configuration>
 					<sources>
-						<source>${project.basedir}/src/main/resources/countries.xsd</source>
+						<source>${project.basedir}/src/main/resources/dias.xsd</source>
 					</sources>
 				</configuration>
 			</plugin>
